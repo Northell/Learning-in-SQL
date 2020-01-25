@@ -1,0 +1,3 @@
+md D:\BACKUP
+SQLCMD -S (local) -E -Q "BACKUP DATABASE MicroSchemes TO DISK ='D:\BACKUP\MicroSchemes.bak' WITH INIT, NOFORMAT, SKIP, NOUNLOAD"
+ 
